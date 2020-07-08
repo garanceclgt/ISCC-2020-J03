@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "nasalisation";
+    src: url("fonts/nasalization-rg.ttf") format("truetype")
+}
+
+
+
+body {
+    color: darkslategrey;
+    background-color: aliceblue;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.20);
+    text-align: center;
+    align-content: center;
+
+}
+p {
+    color: #8b0000
+}
+
+h2,h3, h4, h5 {
+    color: rgb(178, 34, 34);
+    font-size: 25px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3{
+    color:green;
+}
+
+h1 {
+    display: inline;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-family: "nasalisation", sans-serif;
+    font-size: 45px;
+    text-decoration: underline;
+    margin: 0;
+    padding-left: 10%;
+    padding-right:10%;
+}
+
+ul>li:nth-child(2), ul>li:nth-child(3){
+    color:greenyellow;
+}
+
+blockquote{
+    display:block;
+}
+
+img{
+    margin-left: 5%;
+    margin-right: 20%
+}
+video{
+    margin-right: 20%
+}
